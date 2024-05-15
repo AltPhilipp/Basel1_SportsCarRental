@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
 import ch.fhnw.sportscarrental.business.service.CarService;
-import ch.fhnw.sportscarrental.data.domain.Car;
+import ch.fhnw.sportscarrental.data.domain.Car; 
 import io.swagger.v3.oas.annotations.Hidden;
 import jakarta.annotation.PostConstruct;
 
