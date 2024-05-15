@@ -16,6 +16,6 @@ public class WelcomeController {
     public String getUserRole(org.springframework.security.core.Authentication auth) {
         UserDetails userDetails = (UserDetails) auth.getPrincipal();
         String role = userDetails.getAuthorities().toArray()[1].toString();
-        return role;
+        return role; 
     }
 }
