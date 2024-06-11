@@ -38,7 +38,7 @@ public class SportsCarRentalApplication {
         Car car = new Car();
         car.setCarName("Ferrari 488");
         car.setCarDetails("V8 engine, 661 hp, 0-60 mph in 3.0 seconds");
-        car.getCarImageURL("https://cdn.ferrari.com/cms/network/media/img/resize/5d371735c3f9ec0af647572d-ferrari_488pista_intro_socialshare?width=1080");
+        car.setCarImageURL("https://cdn.ferrari.com/cms/network/media/img/resize/5d371735c3f9ec0af647572d-ferrari_488pista_intro_socialshare?width=1080");
         carService.addCar(car);
 
         car = new Car();
