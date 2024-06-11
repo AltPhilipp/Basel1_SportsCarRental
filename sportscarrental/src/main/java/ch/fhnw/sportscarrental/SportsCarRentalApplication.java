@@ -43,36 +43,13 @@ public class SportsCarRentalApplication {
         Car car = new Car();
         car.setCarName("Ferrari 488");
         car.setCarDetails("V8 engine, 661 hp, 0-60 mph in 3.0 seconds");
-        car.setLicensePlate("AG 123 456");
-        car.setAvailable(true);
+        car.setCarImageURL("https://cdn.ferrari.com/cms/network/media/img/resize/5d371735c3f9ec0af647572d-ferrari_488pista_intro_socialshare?width=1080");
         carService.addCar(car);
 
         car = new Car();
         car.setCarName("Lamborghini Huracan");
         car.setCarDetails("V10 engine, 630 hp, 0-60 mph in 2.9 seconds");
-        car.setLicensePlate("ZG 789 012");
-        car.setAvailable(true);
-        carService.addCar(car);
-
-        car = new Car();
-        car.setCarName("Porsche 911 GT3");
-        car.setCarDetails("Flat-six engine, 502 hp, 0-60 mph in 3.2 seconds");
-        car.setLicensePlate("BL 345 678");
-        car.setAvailable(true);
-        carService.addCar(car);
-
-        car = new Car();
-        car.setCarName("McLaren 720S");
-        car.setCarDetails("V8 engine, 710 hp, 0-60 mph in 2.8 seconds");
-        car.setLicensePlate("BL 901 234");
-        car.setAvailable(true);
-        carService.addCar(car);
-
-        car = new Car();
-        car.setCarName("Aston Martin Vantage");
-        car.setCarDetails("V8 engine, 503 hp, 0-60 mph in 3.5 seconds");
-        car.setLicensePlate("SO 567 890");
-        car.setAvailable(true);
+        car.setCarImageURL("https://cdn.motor1.com/images/mgl/kNREB/s1/lamborghini-huracan-sto.webp");
         carService.addCar(car);
 
         Racetrack racetrack = new Racetrack();
