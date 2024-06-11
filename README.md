@@ -148,9 +148,19 @@ Then, the following further dependencies have been added to the project `pom.xml
 ```
 
 ### Frontend Technology
+#### Views
+Vehicles:
+
+Insurance Packages:
+
+Racetracks:
+
+Manage Vehicles:
+
+
 > 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.budibase.app/), please write to Devid on MS teams.
 
-This Web application was developed using Budibase and it is available for preview at https://inttech.budibase.app/app/pizzeria. 
+This Web application was developed using Budibase and it is available for preview at https://inttech.budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c.
 
 ## Execution
 > 🚧: Please describe how to execute your app and what configurations must be changed to run it. 
@@ -167,11 +177,12 @@ The codespace URL of this Repo is subject to change. Therefore, the Budibase Piz
 6. Update the pizzeria URL in the datasource and publish your app.
 
 ## Project Management
-> 🚧: Include all the participants and briefly describe each of their **individual** contribution and/or roles. Screenshots/descriptions of your Kanban board or similar project management tools are welcome.
-
-### Roles
-- Back-end developer: Charuta Pande 
-- Front-end developer: Devid Montecchiari
+> Communication via Teams and In-Person. Work was done remotely and during in-person working sessions at the FHNW Campus Basel.
+> 
+> Phillip Altenbach: Team Lead, Frontend & Backend
+> Ryan Kreis: Frontend & Backend
+> Ranuthan Sittanpalam: Frontend & Documentation
+> Gabriel Schnelli: Backend & Documentation
 
 ### Milestones
 1. **Analysis**: Scenario ideation, use case analysis and user story writing.
