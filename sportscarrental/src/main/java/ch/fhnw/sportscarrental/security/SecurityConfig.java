@@ -41,9 +41,9 @@ public class SecurityConfig {
         return http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests( auth -> auth
-                        .requestMatchers("/api/cars").hasRole("USER") //note that the role need not be prefixed with "ROLE_"
-                        .requestMatchers("/api/cars/**").hasRole("ADMIN") //note that the role need not be prefixed with "ROLE_"
-                        .requestMatchers("/api/cars**",
+                        .requestMatchers("/menu").hasRole("USER") //note that the role need not be prefixed with "ROLE_"
+                        .requestMatchers("/menu/pizza**").hasRole("ADMIN") //note that the role need not be prefixed with "ROLE_"
+                        .requestMatchers("/menu**",
                                                     "/**", //allow access to the home page
                                                     "/swagger-ui.html", //allow access to the swagger UI
                                                     "/v3/api-docs/**",  //allow access to the swagger API documentation
@@ -53,9 +53,5 @@ public class SecurityConfig {
                 .formLogin(withDefaults()) //need to include a static import for withDefaults, see the imports at the top of the file
                 .httpBasic(withDefaults())
                 .build(); 
-    } 
-
-
-
-        
+    }      
 }
