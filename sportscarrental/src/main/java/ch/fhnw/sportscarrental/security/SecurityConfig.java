@@ -41,9 +41,9 @@ public class SecurityConfig {
         return http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests( auth -> auth
-                        .requestMatchers("/api/cars").hasRole("USER") //note that the role need not be prefixed with "ROLE_"
-                        .requestMatchers("/api/cars/**").hasRole("ADMIN") //note that the role need not be prefixed with "ROLE_"
-                        .requestMatchers("/api/cars**",
+                        .requestMatchers("/").hasRole("USER") //note that the role need not be prefixed with "ROLE_"
+                        .requestMatchers("/**").hasRole("ADMIN") //note that the role need not be prefixed with "ROLE_"
+                        .requestMatchers("/**",
                                                     "/**", //allow access to the home page
                                                     "/swagger-ui.html", //allow access to the swagger UI
                                                     "/v3/api-docs/**",  //allow access to the swagger API documentation
