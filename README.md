@@ -1,10 +1,7 @@
 # Motorsport Rentals Project
 
-This is a project for the Internet Technology Module
-
-[![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
-
-> 🚧: **This is a template project**: Make sure you adapt this documentation and the source code in this project according to your needs and use case. Comments are provided with "🚧:". Do not leave these comments in your final submission!
+This is the motorsport rental project for the Internet Technology Module.
+By Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
 #### Contents:
 - [Analysis](#analysis)
@@ -29,7 +26,7 @@ This is a project for the Internet Technology Module
 
 ### Scenario
 
-PizzaRP (Pizzeria Reference Project) is the smallest possible and lightweight demonstration tool allowing the pizzaiolo (Role: Admin) to manage its pizza catalog. 
+The Motorsport Rental Project is a web application for a Motorsport Rental company. Users can reserve and rent vehicles for a selected amount of time. Insurance Packages can be selected with a vehicle rental. Admin users can add, remove and edit vehicles.
 
 ### User Stories
 1. As an Admin, I want to have a Web app to use on different mobile devices and desktop computers.
