@@ -1,6 +1,6 @@
-# Pizzeria Reference Project (PizzaRP)
+# Motorsport Rentals Project
 
-This is a minimal Pizzeria Reference Project (PizzaRP) as a template for students. 
+This is a project for the Internet Technology Module
 
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
