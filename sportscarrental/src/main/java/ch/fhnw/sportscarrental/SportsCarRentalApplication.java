@@ -6,8 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
 import ch.fhnw.sportscarrental.business.service.CarService;
+import ch.fhnw.sportscarrental.business.service.InsurancePackageService;
 import ch.fhnw.sportscarrental.business.service.RacetrackService;
 import ch.fhnw.sportscarrental.data.domain.Car;
+import ch.fhnw.sportscarrental.data.domain.InsurancePackage;
 import ch.fhnw.sportscarrental.data.domain.Racetrack;
 import io.swagger.v3.oas.annotations.Hidden;
 import jakarta.annotation.PostConstruct;
@@ -22,6 +24,9 @@ public class SportsCarRentalApplication {
     
     @Autowired
     private RacetrackService racetrackService;
+
+    @Autowired
+    private InsurancePackageService insurancePackageService;
 
     public static void main(String[] args) {
         SpringApplication.run(SportsCarRentalApplication.class, args);
@@ -46,5 +51,12 @@ public class SportsCarRentalApplication {
         racetrack.setTrackLocation("Nürburg, Germany");
         racetrack.setTrackLength(20.8);
         racetrackService.addRacetrack(racetrack); // Use instance to call the method
+
+        InsurancePackage insurancePackage = new InsurancePackage();
+        insurancePackage.setInsuranceName("Basic");
+        insurancePackage.setInsuranceDescription("Basic insurance package");
+        insurancePackage.setInsurancePrice(100.0);
+        insurancePackage.setInsuranceDeductible(500.0);
+        insurancePackageService.addInsurancePackage(insurancePackage);
     }
 }
