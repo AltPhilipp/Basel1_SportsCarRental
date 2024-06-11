@@ -20,6 +20,9 @@ public class Racetrack {
     public Long getTrackID() {
         return trackID;
     }
+
+    //Getter and Setter methods
+    
     public void setTrackID(Long trackID) {
         this.trackID = trackID;
     }
@@ -47,7 +50,5 @@ public class Racetrack {
     public void setTrackLength(Double trackLength) {
         this.trackLength = trackLength;
     }
-
-    //Getter and Setter methods
     
 }
