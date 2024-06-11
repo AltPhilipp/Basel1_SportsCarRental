@@ -15,8 +15,9 @@ public class Car {
     private String carName;
     private String carDetails;
     private String licensePlate;
-    private boolean available;
+    private double  carRate;
     private String carImageURL;
+    private boolean available;
 
     // Getters and setters
     public Long getId() {
@@ -65,5 +66,13 @@ public class Car {
 
     public void setCarImageURL(String carImageURL) {
         this.carImageURL = carImageURL;
+    }
+
+    public double getCarRate() {
+        return carRate;
+    }
+
+    public void setCarRate(double carRate) {
+        this.carRate = carRate;
     }
 }
