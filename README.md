@@ -1,7 +1,7 @@
 # Motorsport Rentals Project
 
-This is the motorsport rental project for the Internet Technology Module.
-By Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
+This is the Motorsport Rentals project for the Internet Technology Module.
+Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
 ## Contents:
 - [Analysis](#analysis)
@@ -48,7 +48,7 @@ As an administrator, I want to update information on existing racetracks, so tha
 
 As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
 
-#### Vehicles 
+#### Cars 
 As a user, I want to view a list of available sports cars, so that I can choose a car that excites me and meets my performance expectations. 
 
 As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
