@@ -1,9 +1,10 @@
 package ch.fhnw.sportscarrental.controller;
 
-import ch.fhnw.sportscarrental.data.domain.Racetrack;
-import ch.fhnw.sportscarrental.business.service.RacetrackService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import ch.fhnw.sportscarrental.business.service.RacetrackService;
+import ch.fhnw.sportscarrental.data.domain.Racetrack;
 
 import java.util.List;
 

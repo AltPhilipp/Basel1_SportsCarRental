@@ -17,45 +17,37 @@ public class Racetrack {
     private String trackDescription;
     private String trackLocation;
     private Double trackLength;
-
-    // Getters and setters
     public Long getTrackID() {
         return trackID;
     }
-
     public void setTrackID(Long trackID) {
         this.trackID = trackID;
     }
-
     public String getTrackName() {
         return trackName;
     }
-
     public void setTrackName(String trackName) {
         this.trackName = trackName;
     }
-
     public String getTrackDescription() {
         return trackDescription;
     }
-
     public void setTrackDescription(String trackDescription) {
-        this.trackDescription = trackescription;
+        this.trackDescription = trackDescription;
     }
-
     public String getTrackLocation() {
         return trackLocation;
     }
-
     public void setTrackLocation(String trackLocation) {
         this.trackLocation = trackLocation;
     }
-
     public Double getTrackLength() {
         return trackLength;
     }
-
     public void setTrackLength(Double trackLength) {
-    this.trackLength = trackLength;
+        this.trackLength = trackLength;
     }
+
+    //Getter and Setter methods
+    
 }
