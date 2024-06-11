@@ -44,6 +44,7 @@ public class SportsCarRentalApplication {
         car = new Car();
         car.setCarName("Lamborghini Huracan");
         car.setCarDetails("V10 engine, 630 hp, 0-60 mph in 2.9 seconds");
+        car.setCarImageURL("https://cdn.motor1.com/images/mgl/kNREB/s1/lamborghini-huracan-sto.webp");
         carService.addCar(car);
 
         Racetrack racetrack = new Racetrack();
