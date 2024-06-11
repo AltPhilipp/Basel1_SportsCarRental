@@ -52,9 +52,5 @@ public class SecurityConfig {
                 .formLogin(withDefaults()) //need to include a static import for withDefaults, see the imports at the top of the file
                 .httpBasic(withDefaults())
                 .build(); 
-    } 
-
-
-
-        
+    }   
 }
