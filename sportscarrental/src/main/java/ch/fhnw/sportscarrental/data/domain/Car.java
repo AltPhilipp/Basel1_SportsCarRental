@@ -66,5 +66,4 @@ public class Car {
     public void setCarImageURL(String carImageURL) {
         this.carImageURL = carImageURL;
     }
-
 }
