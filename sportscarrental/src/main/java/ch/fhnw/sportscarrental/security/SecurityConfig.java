@@ -14,7 +14,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 import static org.springframework.security.config.Customizer.withDefaults;
-
+/* Test */
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
@@ -41,9 +41,9 @@ public class SecurityConfig {
         return http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests( auth -> auth
-                        .requestMatchers("/menu").hasRole("USER") //note that the role need not be prefixed with "ROLE_"
-                        .requestMatchers("/menu/pizza/**").hasRole("ADMIN") //note that the role need not be prefixed with "ROLE_"
-                        .requestMatchers("/menu/**",
+                        .requestMatchers("/api/cars").hasRole("USER") //note that the role need not be prefixed with "ROLE_"
+                        .requestMatchers("/api/cars/**").hasRole("ADMIN") //note that the role need not be prefixed with "ROLE_"
+                        .requestMatchers("/api/cars**",
                                                     "/**", //allow access to the home page
                                                     "/swagger-ui.html", //allow access to the swagger UI
                                                     "/v3/api-docs/**",  //allow access to the swagger API documentation
