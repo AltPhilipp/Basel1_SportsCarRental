@@ -41,22 +41,33 @@ REMOVE???????????????? As an administrator, I want to delete outdated insurance 
 
 #### Racetracks 
 As a user, I want to browse through available racetracks, so that I can select a track that suits my driving skills and preferences. 
+
 As an administrator, I want to add information about new racetracks, so that users have access to more options for their driving experiences. 
+
 As an administrator, I want to update information on existing racetracks, so that the listings stay accurate and informative. 
+
 As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
 
 #### Vehicles 
 As a user, I want to view a list of available sports cars, so that I can choose a car that excites me and meets my performance expectations. 
+
 As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
+
 As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct. 
+
 As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
 
 #### User Management 
 As a visitor, I want to register for an account, so that I can book sports cars and track my rental history. 
+
 As a user, I want to log into my account, so that I can access personalized features and manage my bookings. 
+
 As an administrator, I want to activate and deactivate user accounts, so that I can manage access to the web application effectively. 
+
 As an administrator, I want to assign and manage roles for users, so that I can control the permissions and access rights within the application. 
+
 As a user, I want to update my profile information, so that my contact details and password remain current and secure. 
+
 As a user, I want to upload my driver’s license information for validation purposes, to be able to initiate bookings. 
 
 ### Use Case
