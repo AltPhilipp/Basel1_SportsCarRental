@@ -17,6 +17,7 @@ public class Car {
     private String carDetails;
     private String licensePlate;
     private boolean available;
+    private String carImageURL;
 
     // Getters and setters
     public Long getId() {
@@ -58,4 +59,13 @@ public class Car {
     public void setAvailable(boolean available) {
         this.available = available;
     }
+
+    public Long getCarImageURL() {
+        return carImageURL;
+    }
+
+    public void setCarImageURL(String carImageURL) {
+        this.carImageURL = carImageURL;
+    }
+
 }
