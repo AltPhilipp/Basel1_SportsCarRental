@@ -4,7 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -18,9 +17,6 @@ public class Car {
     private String carDetails;
     private String licensePlate;
     private boolean available;
-
-    @ManyToOne
-    private Fleet fleet;
 
     // Getters and setters
     public Long getId() {
@@ -61,13 +57,5 @@ public class Car {
 
     public void setAvailable(boolean available) {
         this.available = available;
-    }
-
-    public Fleet getFleet() {
-        return fleet;
-    }
-
-    public void setFleet(Fleet fleet) {
-        this.fleet = fleet;
     }
 }
