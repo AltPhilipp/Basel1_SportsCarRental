@@ -59,7 +59,7 @@ public class Car {
         this.available = available;
     }
 
-    public Long getCarImageURL() {
+    public String getCarImageURL() {
         return carImageURL;
     }
 
