@@ -18,61 +18,46 @@ public class Car {
     private double  carRate;
     private String carImageURL;
     private boolean available;
-
-    // Getters and setters
     public Long getId() {
         return id;
     }
-
     public void setId(Long id) {
         this.id = id;
     }
-
     public String getCarName() {
         return carName;
     }
-
     public void setCarName(String carName) {
         this.carName = carName;
     }
-
     public String getCarDetails() {
         return carDetails;
     }
-
     public void setCarDetails(String carDetails) {
         this.carDetails = carDetails;
     }
-
     public String getLicensePlate() {
         return licensePlate;
     }
-
     public void setLicensePlate(String licensePlate) {
         this.licensePlate = licensePlate;
     }
-
-    public boolean isAvailable() {
-        return available;
-    }
-
-    public void setAvailable(boolean available) {
-        this.available = available;
-    }
-
-    public String getCarImageURL() {
-        return carImageURL;
-    }
-
-    public void setCarImageURL(String carImageURL) {
-        this.carImageURL = carImageURL;
-    }
-
     public double getCarRate() {
         return carRate;
     }
-
     public void setCarRate(double carRate) {
         this.carRate = carRate;
+    }
+    public String getCarImageURL() {
+        return carImageURL;
+    }
+    public void setCarImageURL(String carImageURL) {
+        this.carImageURL = carImageURL;
+    }
+    public boolean isAvailable() {
+        return available;
+    }
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 }
