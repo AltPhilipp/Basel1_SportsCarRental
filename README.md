@@ -3,7 +3,7 @@
 This is the motorsport rental project for the Internet Technology Module.
 By Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
-#### Contents:
+## Contents:
 - [Analysis](#analysis)
   - [Scenario](#scenario)
   - [User Stories](#user-stories)
@@ -24,54 +24,36 @@ By Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
 
 
-### Scenario
+## Scenario
 
 The Motorsport Rental Project is a web application for a Motorsport Rental company. Users can reserve and rent vehicles for a selected amount of time. Insurance Packages can be selected with a vehicle rental. Admin users can add, remove and edit vehicles.
 
-###User Stories: 
+### User Stories: 
 
-####Insurance Packages:
+#### Insurance Packages:
+As a user, I want to view different insurance packages available for my rental, so that I can select the package that best matches my risk preferences and budget.
+REMOVE???????????????? As an administrator, I want to add new insurance packages to the system, so that I can offer more choices to our users based on their needs and feedback. 
+REMOVE???????????????? As an administrator, I want to update details of existing insurance packages, so that I can ensure the information is current and accurate. 
+REMOVE???????????????? As an administrator, I want to delete outdated insurance packages, so that users are only presented with relevant options. 
 
-As a user, I want to view different insurance packages available for my rental, so that I can select the package that best matches my risk preferences and budget. 
-
-As an administrator, I want to add new insurance packages to the system, so that I can offer more choices to our users based on their needs and feedback. 
-
-As an administrator, I want to update details of existing insurance packages, so that I can ensure the information is current and accurate. 
-
-As an administrator, I want to delete outdated insurance packages, so that users are only presented with relevant options. 
-
-Racetracks 
-
+#### Racetracks 
 As a user, I want to browse through available racetracks, so that I can select a track that suits my driving skills and preferences. 
-
 As an administrator, I want to add information about new racetracks, so that users have access to more options for their driving experiences. 
-
 As an administrator, I want to update information on existing racetracks, so that the listings stay accurate and informative. 
-
 As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
 
-Vehicles 
-
+#### Vehicles 
 As a user, I want to view a list of available sports cars, so that I can choose a car that excites me and meets my performance expectations. 
-
 As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
-
 As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct. 
-
 As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
 
-User Management 
-
+#### User Management 
 As a visitor, I want to register for an account, so that I can book sports cars and track my rental history. 
-
 As a user, I want to log into my account, so that I can access personalized features and manage my bookings. 
-
 As an administrator, I want to activate and deactivate user accounts, so that I can manage access to the web application effectively. 
-
 As an administrator, I want to assign and manage roles for users, so that I can control the permissions and access rights within the application. 
-
 As a user, I want to update my profile information, so that my contact details and password remain current and secure. 
-
 As a user, I want to upload my driver’s license information for validation purposes, to be able to initiate bookings. 
 
 ### Use Case
