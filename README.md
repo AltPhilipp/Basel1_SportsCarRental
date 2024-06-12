@@ -44,7 +44,7 @@ As a user, I want to browse through available racetracks, so that I can select a
 
 As an administrator, I want to add information about new racetracks, so that users have access to more options for their driving experiences. 
 
-As an administrator, I want to update information on existing racetracks, so that the listings stay accurate and informative. 
+~As an administrator, I want to update information on existing racetracks, so that the listings stay accurate and informative.~
 
 As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
 
@@ -53,11 +53,11 @@ As a user, I want to view a list of available sports cars, so that I can choose 
 
 As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
 
-As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct. 
+~As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct.~
 
 As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
 
-#### User Management 
+~#### User Management ~
 As a visitor, I want to register for an account, so that I can book sports cars and track my rental history. 
 
 As a user, I want to log into my account, so that I can access personalized features and manage my bookings. 
