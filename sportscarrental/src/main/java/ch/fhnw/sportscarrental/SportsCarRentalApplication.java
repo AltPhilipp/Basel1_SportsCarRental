@@ -18,7 +18,7 @@ import jakarta.annotation.PostConstruct;
 
 @SpringBootApplication
 @RestController
-@Hidden // Hide this controller from the Swagger UI
+@Hidden // Hide this controller from the Swagger UI!
 public class SportsCarRentalApplication {
 
     @Autowired
