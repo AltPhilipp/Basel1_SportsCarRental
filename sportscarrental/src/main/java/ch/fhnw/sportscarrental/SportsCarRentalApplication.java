@@ -101,21 +101,21 @@ public class SportsCarRentalApplication {
 
         InsurancePackage insurancePackage = new InsurancePackage();
         insurancePackage.setInsuranceName("Basic");
-        insurancePackage.setInsuranceDescription("Our Basic Sports Car Rental Insurance offers essential coverage for your high-performance vehicle rental. This policy provides liability protection, covering damage to other vehicles and property, as well as limited personal injury protection. It also includes collision damage waiver (CDW) to protect against minor damages to the rented sports car. Ideal for those looking for cost-effective peace of mind, this plan ensures you're covered for the essentials while you enjoy your driving experience.");
+        insurancePackage.setInsuranceDescription("Basic insurance package");
         insurancePackage.setInsurancePrice(100.0);
         insurancePackage.setInsuranceDeductible(1000.0);
         insurancePackageService.addInsurancePackage(insurancePackage);
 
         insurancePackage = new InsurancePackage();
         insurancePackage.setInsuranceName("Advanced");
-        insurancePackage.setInsuranceDescription("Upgrade to our Advanced Sports Car Rental Insurance for comprehensive protection and added peace of mind. This policy includes all the benefits of our Basic plan, plus additional coverage for theft and vandalism. It also offers extended personal injury protection and higher liability limits. Furthermore, it covers roadside assistance services, including towing and tire replacement, ensuring you're never stranded. Perfect for those seeking a balanced combination of enhanced safety and convenience during their sports car rental experience.");
+        insurancePackage.setInsuranceDescription("Advanced insurance package");
         insurancePackage.setInsurancePrice(500.0);
         insurancePackage.setInsuranceDeductible(300.0);
         insurancePackageService.addInsurancePackage(insurancePackage);
 
         insurancePackage = new InsurancePackage();
         insurancePackage.setInsuranceName("Premium");
-        insurancePackage.setInsuranceDescription("For the ultimate in coverage and protection, choose our Pro Racer Sports Car Rental Insurance. This premium policy is designed for the avid car enthusiast and professional drivers who demand top-tier protection. In addition to the comprehensive coverage of our Advanced plan, it includes track day insurance for sanctioned events, coverage for aftermarket modifications, and higher liability limits. It also offers personal accident insurance, covering medical expenses and loss of income due to injury. With 24/7 VIP roadside assistance and concierge services, our Pro Racer plan ensures you have everything you need for an exhilarating and worry-free driving experience.");
+        insurancePackage.setInsuranceDescription("Premium insurance package");
         insurancePackage.setInsurancePrice(800.0);
         insurancePackage.setInsuranceDeductible(0.0);
         insurancePackageService.addInsurancePackage(insurancePackage);
