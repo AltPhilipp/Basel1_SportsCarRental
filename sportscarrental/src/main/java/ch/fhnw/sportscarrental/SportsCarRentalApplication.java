@@ -72,7 +72,7 @@ public class SportsCarRentalApplication {
         car.setCarDetails("V8 engine, 710 hp, 0-60 mph in 2.8 seconds");
         car.setLicensePlate("LU 13579");
         car.setCarRate(700.0);
-        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018_McLaren_720S_V8_S-A_4.0.jpg/560px-2018_McLaren_720S_V8_S-A_4.0.jpg");
+        car.setCarImageURL("https://cdn.motor1.com/images/mgl/eLjbP/s1/2020-mclaren-720s-spider.webp");
         car.setAvailable(true);
         carService.addCar(car);
 
