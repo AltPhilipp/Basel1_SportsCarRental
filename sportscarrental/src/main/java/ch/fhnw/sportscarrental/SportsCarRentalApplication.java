@@ -63,7 +63,7 @@ public class SportsCarRentalApplication {
         car.setCarDetails("Flat-six engine, 502 hp, 0-60 mph in 3.2 seconds");
         car.setLicensePlate("BE 67890");
         car.setCarRate(400.0);
-        car.setCarImageURL("https://cdn.prod.website-files.com/646218c67da47160c64a84d5/64faef04f0101dc9ac9e3fbc_94.png");
+        car.setCarImageURL("https://cdn.motor1.com/images/mgl/0JZ2V/s1/2022-porsche-911-gt3.webp");
         car.setAvailable(true);
         carService.addCar(car);
 
