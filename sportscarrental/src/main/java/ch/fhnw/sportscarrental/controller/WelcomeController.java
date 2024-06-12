@@ -9,7 +9,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String getWelcomeString() {
-        return "Welcome to the Sports Car Rental Service!";
+        return "Welcome to the Motorsport Rentals!";
     }
 
     @GetMapping(value="/user")
