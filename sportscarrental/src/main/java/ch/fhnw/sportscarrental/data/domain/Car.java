@@ -14,10 +14,11 @@ public class Car {
     private Long id;
     private String carName;
     private String carDetails;
-    private String licensePlate;
-    private double  carRate;
     private String carImageURL;
+    private String licensePlate;
     private boolean available;
+
+    // Getters and setters
     public Long getId() {
         return id;
     }
