@@ -63,7 +63,7 @@ public class SportsCarRentalApplication {
         car.setCarDetails("Flat-six engine, 502 hp, 0-60 mph in 3.2 seconds");
         car.setLicensePlate("BE 67890");
         car.setCarRate(400.0);
-        car.setCarImageURL("https://cdn.prod.website-files.com/646218c67da47160c64a84d5/64faef04f0101dc9ac9e3fbc_94.png");
+        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg/2880px-Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg");
         car.setAvailable(true);
         carService.addCar(car);
 
@@ -72,7 +72,7 @@ public class SportsCarRentalApplication {
         car.setCarDetails("V8 engine, 710 hp, 0-60 mph in 2.8 seconds");
         car.setLicensePlate("LU 13579");
         car.setCarRate(700.0);
-        car.setCarImageURL("https://www.mclaren.com/globalassets/mclaren2020/models/720s/720s-coupe/720s-coupe-2020/720s-coupe-2020-1.jpg");
+        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018_McLaren_720S_V8_S-A_4.0.jpg/560px-2018_McLaren_720S_V8_S-A_4.0.jpg");
         car.setAvailable(true);
         carService.addCar(car);
 
@@ -81,7 +81,7 @@ public class SportsCarRentalApplication {
         car.setCarDetails("V10 engine, 562 hp, 0-60 mph in 3.4 seconds");
         car.setLicensePlate("SG 24680");
         car.setCarRate(450.0);
-        car.setCarImageURL("https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/r8/my2020/1920x1080-gal-prop-tx/1920x1080_desktop_R8_Coupe_V10_performance_quattro_1920x1080.jpg");
+        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R8_Coupe_V10_performance-1.jpg/2560px-R8_Coupe_V10_performance-1.jpg");
         car.setAvailable(true);
         carService.addCar(car);
         
