@@ -16,6 +16,7 @@ public class Car {
     private String carDetails;
     private String carImageURL;
     private String licensePlate;
+    private double carRate;
     private boolean available;
 
     // Getters and setters
