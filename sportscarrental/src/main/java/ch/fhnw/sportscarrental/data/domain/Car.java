@@ -17,7 +17,6 @@ public class Car {
     private String carImageURL;
     private String licensePlate;
     private boolean available;
-    private String carImageURL;
 
     // Getters and setters
     public Long getId() {
