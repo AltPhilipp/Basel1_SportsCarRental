@@ -35,7 +35,6 @@ public class SecurityConfig {
                 .build());
 
     }
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
@@ -53,9 +52,5 @@ public class SecurityConfig {
                 .formLogin(withDefaults()) //need to include a static import for withDefaults, see the imports at the top of the file
                 .httpBasic(withDefaults())
                 .build(); 
-    } 
-
-
-
-        
+    }   
 }
