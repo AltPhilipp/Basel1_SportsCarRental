@@ -23,7 +23,6 @@ public class SecurityConfig {
     @Bean
     public UserDetailsService users() {
         //Create two users with different roles and add them to the in-memory user store
-
         return new InMemoryUserDetailsManager(
             User.withUsername("myuser")
                 .password("{noop}password")
