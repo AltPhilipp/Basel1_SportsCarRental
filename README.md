@@ -1,6 +1,6 @@
-# Motorsport Rentals Project
+# Sportscar Rental Project
 
-This is the Motorsport Rentals project for the Internet Technology Module.
+This is the Sportscar Rental project for the Internet Technology Module.
 Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
 ## Contents:

@@ -69,7 +69,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();   
         car.setCarName("McLaren 720S");
-        car.setCarDetails("The McLaren 720S is equipped with a 4.0-liter twin-turbocharged V8 engine that produces an impressive 710 horsepower. This supercar achieves 0 to 60 mph in just 2.8 seconds, blending breathtaking speed with sophisticated design and cutting-edge aerodynamics.");
+        car.setCarDetails("The McLaren 720S is equipped with a 4.0-liter twin-turbocharged V8 engine that produces an impressive 710 horsepower. This supercar achieves 0 to 60 mph in just 2.8 seconds.");
         car.setLicensePlate("NR 13579");
         car.setCarRate(700.0);
         car.setCarImageURL("https://cdn.motor1.com/images/mgl/eLjbP/s1/2020-mclaren-720s-spider.webp");
@@ -78,7 +78,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Audi R8");
-        car.setCarDetails("The Audi R8 is powered by a 5.2-liter V10 engine that delivers 562 horsepower, enabling it to accelerate from 0 to 60 mph in 3.4 seconds. This supercar combines Audi’s Quattro all-wheel-drive system with a luxurious interior and a striking exterior design.");
+        car.setCarDetails("The Audi R8 is powered by a 5.2-liter V10 engine that delivers 562 horsepower, enabling it to accelerate from 0 to 60 mph in 3.4 seconds.");
         car.setLicensePlate("NR 24680");
         car.setCarRate(450.0);
         car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R8_Coupe_V10_performance-1.jpg/2560px-R8_Coupe_V10_performance-1.jpg");
@@ -105,7 +105,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Aston Martin DB11");
-        car.setCarDetails("The Aston Martin DB11 features a 5.2-liter twin-turbocharged V12 engine producing 630 horsepower, enabling it to accelerate from 0 to 60 mph in 3.7 seconds. This grand tourer offers a blend of performance, luxury, and timeless design.");
+        car.setCarDetails("The Aston Martin DB11 features a 5.2-liter twin-turbocharged V12 engine producing 630 horsepower, enabling it to accelerate from 0 to 60 mph in 3.7 seconds.");
         car.setLicensePlate("NR 11223");
         car.setCarRate(550.0);
         car.setCarImageURL("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/aston-martin-db11.jpg?itok=7JtPFQyT");
@@ -114,7 +114,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Chevrolet Corvette C8");
-        car.setCarDetails("The Chevrolet Corvette C8 is powered by a 6.2-liter V8 engine with 495 horsepower, allowing it to sprint from 0 to 60 mph in 2.9 seconds. This mid-engine sports car offers exceptional performance, modern design, and great value.");
+        car.setCarDetails("The Chevrolet Corvette C8 is powered by a 6.2-liter V8 engine with 495 horsepower, allowing it to sprint from 0 to 60 mph in 2.9 seconds.");
         car.setLicensePlate("NR 22334");
         car.setCarRate(400.0);
         car.setCarImageURL("https://www.motortrend.com/uploads/2021/09/001-2021-chevrolet-corvette-stingray-c8-passenger-side-front-three-quarter-roof.jpg");
@@ -123,7 +123,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Ford GT");
-        car.setCarDetails("The Ford GT features a 3.5-liter twin-turbocharged V6 engine with 660 horsepower, achieving 0 to 60 mph in 3.0 seconds. This supercar showcases advanced aerodynamics, a sleek design, and impressive performance.");
+        car.setCarDetails("The Ford GT features a 3.5-liter twin-turbocharged V6 engine with 660 horsepower, achieving 0 to 60 mph in 3.0 seconds.");
         car.setLicensePlate("NR 33445");
         car.setCarRate(750.0);
         car.setCarImageURL("https://www.motortrend.com/uploads/2022/10/2022-Ford-GT-LM-Final-Special-Edition-2.jpg");
@@ -132,7 +132,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Nissan GT-R");
-        car.setCarDetails("The Nissan GT-R is equipped with a 3.8-liter twin-turbocharged V6 engine producing 565 horsepower, allowing it to go from 0 to 60 mph in 2.9 seconds. Known as 'Godzilla,' this car offers phenomenal acceleration, advanced technology, and precise handling.");
+        car.setCarDetails("The Nissan GT-R is equipped with a 3.8-liter twin-turbocharged V6 engine producing 565 horsepower, allowing it to go from 0 to 60 mph in 2.9 seconds.");
         car.setLicensePlate("NR 44556");
         car.setCarRate(450.0);
         car.setCarImageURL("https://www.thextremexperience.com/wp-content/uploads/2023/10/2021-nissan-gt-r-nismo-mmp-1-1599069103-1-1600x897.jpeg");
@@ -141,7 +141,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Jaguar F-Type");
-        car.setCarDetails("The Jaguar F-Type features a 5.0-liter supercharged V8 engine producing 575 horsepower, achieving 0 to 60 mph in 3.5 seconds. This British sports car combines elegant styling, luxurious comfort, and thrilling performance.");
+        car.setCarDetails("The Jaguar F-Type features a 5.0-liter supercharged V8 engine producing 575 horsepower, achieving 0 to 60 mph in 3.5 seconds.");
         car.setLicensePlate("NR 55667");
         car.setCarRate(500.0);
         car.setCarImageURL("https://car-images.bauersecure.com/wp-images/12899/jaguar_ftype_100.jpg");
