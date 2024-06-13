@@ -41,49 +41,69 @@ public class SportsCarRentalApplication {
     @PostConstruct
     private void initPlaceholderData() throws Exception {
         Car car = new Car();
-        car.setCarName("Ferrari 488");
-        car.setCarDetails("V8 engine, 661 hp, 0-60 mph in 3.0 seconds");
-        car.setLicensePlate("AG 12345");
-        car.setCarRate(500.0);
-        car.setCarImageURL("https://cdn.ferrari.com/cms/network/media/img/resize/5d371735c3f9ec0af647572d-ferrari_488pista_intro_socialshare?width=1080");
-        car.setAvailable(true);
-        carService.addCar(car);
+car.setCarName("Ferrari 488");
+car.setCarDetails("The Ferrari 488 features a 3.9-liter twin-turbocharged V8 engine producing 661 horsepower, allowing it to accelerate from 0 to 60 mph in just 3.0 seconds. This supercar combines exceptional performance with Italian luxury and cutting-edge technology, making it a standout in its class.");
+car.setLicensePlate("NR 12345");
+car.setCarRate(500.0);
+car.setCarImageURL("https://cdn.ferrari.com/cms/network/media/img/resize/5d371735c3f9ec0af647572d-ferrari_488pista_intro_socialshare?width=1080");
+car.setAvailable(true);
+carService.addCar(car);
 
-        car = new Car();
-        car.setCarName("Lamborghini Huracán");
-        car.setCarDetails("V10 engine, 631 hp, 0-60 mph in 2.9 seconds");
-        car.setLicensePlate("ZH 54321");
-        car.setCarRate(600.0);
-        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2023_Lamborghini_Huracan_Tecnica_1.jpg/420px-2023_Lamborghini_Huracan_Tecnica_1.jpg");
-        car.setAvailable(true);
-        carService.addCar(car);
+car = new Car();
+car.setCarName("Lamborghini Huracán");
+car.setCarDetails("The Lamborghini Huracán is powered by a naturally aspirated 5.2-liter V10 engine with 631 horsepower, enabling it to go from 0 to 60 mph in an astonishing 2.9 seconds. This Italian masterpiece is known for its aggressive design, advanced aerodynamics, and thrilling driving dynamics.");
+car.setLicensePlate("NR 54321");
+car.setCarRate(600.0);
+car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2023_Lamborghini_Huracan_Tecnica_1.jpg/420px-2023_Lamborghini_Huracan_Tecnica_1.jpg");
+car.setAvailable(true);
+carService.addCar(car);
 
-        car = new Car();
-        car.setCarName("Porsche 911 GT3");
-        car.setCarDetails("Flat-six engine, 502 hp, 0-60 mph in 3.2 seconds");
-        car.setLicensePlate("BE 67890");
-        car.setCarRate(400.0);
-        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg/2880px-Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg");
-        car.setAvailable(true);
-        carService.addCar(car);
+car = new Car();
+car.setCarName("Porsche 911 GT3");
+car.setCarDetails("The Porsche 911 GT3 boasts a 4.0-liter naturally aspirated flat-six engine, delivering 502 horsepower. It can sprint from 0 to 60 mph in 3.2 seconds. Renowned for its precision handling and track-oriented performance, this model continues the legacy of the iconic 911 series with modern enhancements.");
+car.setLicensePlate("NR 67890");
+car.setCarRate(400.0);
+car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg/2880px-Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg");
+car.setAvailable(true);
+carService.addCar(car);
 
-        car = new Car();   
-        car.setCarName("McLaren 720S");
-        car.setCarDetails("V8 engine, 710 hp, 0-60 mph in 2.8 seconds");
-        car.setLicensePlate("LU 13579");
-        car.setCarRate(700.0);
-        car.setCarImageURL("https://cdn.motor1.com/images/mgl/eLjbP/s1/2020-mclaren-720s-spider.webp");
-        car.setAvailable(true);
-        carService.addCar(car);
+car = new Car();   
+car.setCarName("McLaren 720S");
+car.setCarDetails("The McLaren 720S is equipped with a 4.0-liter twin-turbocharged V8 engine that produces an impressive 710 horsepower. This supercar achieves 0 to 60 mph in just 2.8 seconds, blending breathtaking speed with sophisticated design and cutting-edge aerodynamics.");
+car.setLicensePlate("NR 13579");
+car.setCarRate(700.0);
+car.setCarImageURL("https://cdn.motor1.com/images/mgl/eLjbP/s1/2020-mclaren-720s-spider.webp");
+car.setAvailable(true);
+carService.addCar(car);
 
-        car = new Car();
-        car.setCarName("Audi R8");
-        car.setCarDetails("V10 engine, 562 hp, 0-60 mph in 3.4 seconds");
-        car.setLicensePlate("SG 24680");
-        car.setCarRate(450.0);
-        car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R8_Coupe_V10_performance-1.jpg/2560px-R8_Coupe_V10_performance-1.jpg");
-        car.setAvailable(true);
-        carService.addCar(car);
+car = new Car();
+car.setCarName("Audi R8");
+car.setCarDetails("The Audi R8 is powered by a 5.2-liter V10 engine that delivers 562 horsepower, enabling it to accelerate from 0 to 60 mph in 3.4 seconds. This supercar combines Audi’s Quattro all-wheel-drive system with a luxurious interior and a striking exterior design.");
+car.setLicensePlate("NR 24680");
+car.setCarRate(450.0);
+car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R8_Coupe_V10_performance-1.jpg/2560px-R8_Coupe_V10_performance-1.jpg");
+car.setAvailable(true);
+carService.addCar(car);
+
+car = new Car();
+car.setCarName("Mercedes-AMG GT");
+car.setCarDetails("The Mercedes-AMG GT features a 4.0-liter twin-turbocharged V8 engine with 523 horsepower, achieving 0 to 60 mph in 3.7 seconds. This grand tourer combines dynamic performance with the elegance and luxury expected from Mercedes-Benz, offering a thrilling driving experience.");
+car.setLicensePlate("NR 97531");
+car.setCarRate(350.0);
+car.setCarImageURL("https://hips.hearstapps.com/hmg-prod/images/2024-mercedes-amg-gt-131-654bc96f8591b.jpg?crop=0.506xw:0.380xh;0.255xw,0.284xh&resize=640:*");
+car.setAvailable(true);
+carService.addCar(car);
+
+car = new Car();
+car.setCarName("BMW M8");
+car.setCarDetails("The BMW M8 is equipped with a 4.4-liter twin-turbocharged V8 engine that produces 617 horsepower, allowing it to accelerate from 0 to 60 mph in 3.0 seconds. This high-performance coupe combines luxury, advanced technology, and aggressive styling for an exhilarating driving experience.");
+car.setLicensePlate("NR 86420");
+car.setCarRate(500.0);
+car.setCarImageURL("https://images.pistonheads.com/nimg/42204/BMW_M8.jpg");
+car.setAvailable(true);
+carService.addCar(car);
+
+
         
         Racetrack racetrack = new Racetrack();
         racetrack.setTrackName("Nürburgring - Grand Prix Track");
