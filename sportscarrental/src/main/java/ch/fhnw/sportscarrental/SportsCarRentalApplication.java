@@ -42,7 +42,7 @@ public class SportsCarRentalApplication {
     private void initPlaceholderData() throws Exception {
         Car car = new Car();
         car.setCarName("Ferrari 488");
-        car.setCarDetails("The Ferrari 488 features a 3.9-liter twin-turbocharged V8 engine producing 661 horsepower, allowing it to accelerate from 0 to 60 mph in just 3.0 seconds. This supercar combines exceptional performance with Italian luxury and cutting-edge technology, making it a standout in its class.");
+        car.setCarDetails("The Ferrari 488 features a 3.9-liter twin-turbocharged V8 engine producing 661 horsepower, allowing it to accelerate from 0 to 60 mph in just 3.0 seconds.");
         car.setLicensePlate("NR 12345");
         car.setCarRate(500.0);
         car.setCarImageURL("https://cdn.ferrari.com/cms/network/media/img/resize/5d371735c3f9ec0af647572d-ferrari_488pista_intro_socialshare?width=1080");
@@ -51,7 +51,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Lamborghini Huracán");
-        car.setCarDetails("The Lamborghini Huracán is powered by a naturally aspirated 5.2-liter V10 engine with 631 horsepower, enabling it to go from 0 to 60 mph in an astonishing 2.9 seconds. This Italian masterpiece is known for its aggressive design, advanced aerodynamics, and thrilling driving dynamics.");
+        car.setCarDetails("The Lamborghini Huracán is powered by a naturally aspirated 5.2-liter V10 engine with 631 horsepower, enabling it to go from 0 to 60 mph in an astonishing 2.9 seconds.");
         car.setLicensePlate("NR 54321");
         car.setCarRate(600.0);
         car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2023_Lamborghini_Huracan_Tecnica_1.jpg/420px-2023_Lamborghini_Huracan_Tecnica_1.jpg");
@@ -60,7 +60,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Porsche 911 GT3");
-        car.setCarDetails("The Porsche 911 GT3 boasts a 4.0-liter naturally aspirated flat-six engine, delivering 502 horsepower. It can sprint from 0 to 60 mph in 3.2 seconds. Renowned for its precision handling and track-oriented performance, this model continues the legacy of the iconic 911 series with modern enhancements.");
+        car.setCarDetails("The Porsche 911 GT3 boasts a 4.0-liter naturally aspirated flat-six engine, delivering 502 horsepower. It can sprint from 0 to 60 mph in 3.2 seconds.");
         car.setLicensePlate("NR 67890");
         car.setCarRate(400.0);
         car.setCarImageURL("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg/2880px-Porsche_996_GT3_-_Flickr_-_Alexandre_Pr%C3%A9vot_%283%29.jpg");
@@ -87,7 +87,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("Mercedes-AMG GT");
-        car.setCarDetails("The Mercedes-AMG GT features a 4.0-liter twin-turbocharged V8 engine with 523 horsepower, achieving 0 to 60 mph in 3.7 seconds. This grand tourer combines dynamic performance with the elegance and luxury expected from Mercedes-Benz, offering a thrilling driving experience.");
+        car.setCarDetails("The Mercedes-AMG GT features a 4.0-liter twin-turbocharged V8 engine with 523 horsepower, achieving 0 to 60 mph in 3.7 seconds.");
         car.setLicensePlate("NR 97531");
         car.setCarRate(350.0);
         car.setCarImageURL("https://hips.hearstapps.com/hmg-prod/images/2024-mercedes-amg-gt-131-654bc96f8591b.jpg?crop=0.506xw:0.380xh;0.255xw,0.284xh&resize=640:*");
@@ -96,7 +96,7 @@ public class SportsCarRentalApplication {
 
         car = new Car();
         car.setCarName("BMW M8");
-        car.setCarDetails("The BMW M8 is equipped with a 4.4-liter twin-turbocharged V8 engine that produces 617 horsepower, allowing it to accelerate from 0 to 60 mph in 3.0 seconds. This high-performance coupe combines luxury, advanced technology, and aggressive styling for an exhilarating driving experience.");
+        car.setCarDetails("The BMW M8 is equipped with a 4.4-liter twin-turbocharged V8 engine that produces 617 horsepower, allowing it to accelerate from 0 to 60 mph in 3.0 seconds.");
         car.setLicensePlate("NR 86420");
         car.setCarRate(500.0);
         car.setCarImageURL("https://images.pistonheads.com/nimg/42204/BMW_M8.jpg");
@@ -165,21 +165,21 @@ public class SportsCarRentalApplication {
 
         InsurancePackage insurancePackage = new InsurancePackage();
         insurancePackage.setInsuranceName("Basic");
-        insurancePackage.setInsuranceDescription("Our Basic Sports Car Rental Insurance offers essential coverage for your high-performance vehicle rental. This policy provides liability protection, covering damage to other vehicles and property, as well as limited personal injury protection.");
+        insurancePackage.setInsuranceDescription("Our Basic Sports Car Rental Insurance offers essential coverage for your high-performance vehicle rental.");
         insurancePackage.setInsurancePrice(100.0);
         insurancePackage.setInsuranceDeductible(1000.0);
         insurancePackageService.addInsurancePackage(insurancePackage);
 
         insurancePackage = new InsurancePackage();
         insurancePackage.setInsuranceName("Advanced");
-        insurancePackage.setInsuranceDescription("Upgrade to our Advanced Sports Car Rental Insurance for comprehensive protection and added peace of mind. This policy includes all the benefits of our Basic plan, plus additional coverage for theft and vandalism.");
+        insurancePackage.setInsuranceDescription("Upgrade to our Advanced Sports Car Rental Insurance for comprehensive protection and added peace of mind.");
         insurancePackage.setInsurancePrice(500.0);
         insurancePackage.setInsuranceDeductible(300.0);
         insurancePackageService.addInsurancePackage(insurancePackage);
 
         insurancePackage = new InsurancePackage();
         insurancePackage.setInsuranceName("Premium");
-        insurancePackage.setInsuranceDescription("For the ultimate in coverage and protection, choose our Pro Racer Sports Car Rental Insurance. This premium policy is designed for the avid car enthusiast and professional drivers who demand top-tier protection.");
+        insurancePackage.setInsuranceDescription("For the ultimate in coverage and protection, choose our Pro Racer Sports Car Rental Insurance. Drive with confidence!");
         insurancePackage.setInsurancePrice(800.0);
         insurancePackage.setInsuranceDeductible(0.0);
         insurancePackageService.addInsurancePackage(insurancePackage);
