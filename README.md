@@ -33,42 +33,34 @@ The Motorsport Rental Project is a web application for a Motorsport Rental compa
 #### Insurance Packages:
 - As a user, I want to view different insurance packages available for my rental, so that I can select the package that best matches my risk preferences and budget.
 
-As an administrator, I want to add new insurance packages to the system, so that I can offer more choices to our users based on their needs and feedback. 
+- As an administrator, I want to add new insurance packages to the system, so that I can offer more choices to our users based on their needs and feedback. 
 
-As an administrator, I want to update details of existing insurance packages, so that I can ensure the information is current and accurate. 
+- As an administrator, I want to update details of existing insurance packages, so that I can ensure the information is current and accurate. 
 
-As an administrator, I want to delete outdated insurance packages, so that users are only presented with relevant options. 
+- As an administrator, I want to delete outdated insurance packages, so that users are only presented with relevant options. 
 
-#### Racetracks 
-As a user, I want to browse through available racetracks, so that I can select a track that suits my driving skills and preferences. 
+#### Racetracks:
+- As a user, I want to browse through available racetracks, so that I can select a track that suits my driving skills and preferences. 
 
-As an administrator, I want to add information about new racetracks, so that users have access to more options for their driving experiences. 
+- As an administrator, I want to add information about new racetracks, so that users have access to more options for their driving experiences. 
 
-As an administrator, I want to update information on existing racetracks, so that the listings stay accurate and informative.
+- As an administrator, I want to update information on existing racetracks, so that the listings stay accurate and informative.
 
-As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
+- As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
 
-#### Cars 
-As a user, I want to view a list of available sports cars, so that I can choose a car that excites me and meets my performance expectations. 
+#### Cars:
+- As a user, I want to view a list of available sports cars, so that I can choose a car that excites me and meets my performance expectations. 
 
-As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
+- As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
 
-As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct.
+- As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct.
 
-As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
+- As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
 
-#### User Management
-As a visitor, I want to register for an account, so that I can book sports cars and track my rental history. 
+#### Administration:
+- As an administrator, I want to log into my account, so that I can access the admin-only section to perform tasks related to car management and booking oversight.
 
-As a user, I want to log into my account, so that I can access personalized features and manage my bookings. 
-
-As an administrator, I want to activate and deactivate user accounts, so that I can manage access to the web application effectively. 
-
-As an administrator, I want to assign and manage roles for users, so that I can control the permissions and access rights within the application. 
-
-As a user, I want to update my profile information, so that my contact details and password remain current and secure. 
-
-As a user, I want to upload my driver’s license information for validation purposes, to be able to initiate bookings. 
+- As an administrator, I want to see what bookings have been made, so that I can monitor and manage rental activities effectively.
 
 ### Use Case
 
