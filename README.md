@@ -39,7 +39,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 - As an administrator, I want to delete outdated insurance packages, so that users are only presented with relevant options. 
 
-#### Racetracks 
+#### Racetracks:  
 - As a user, I want to browse through available racetracks, so that I can select a track that suits my driving skills and preferences. 
 
 - As an administrator, I want to add new racetracks, so that users have access to more options for their driving experiences. 
@@ -48,7 +48,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 - As an administrator, I want to delete racetracks that are no longer available, to keep the platform updated and avoid confusion for the users. 
 
-#### Cars 
+#### Cars: 
 - As a user, I want to view a list of available sports cars, so that I can choose a car that excites me and meets my performance expectations. 
 
 - As an administrator, I want to add new sports cars to our inventory, so that I can provide a wider range of choices to our users. 
@@ -57,7 +57,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 - As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
 
-#### NEU User Management
+#### NEU User Management: 
 - As a visitor, I want to browse all the information on the website without needing to create an account, so that I can freely explore the available options.
 
 - As a visitor, I want to make a booking without needing to create an account, so that I can quickly and easily arrange my driving experience.
@@ -74,7 +74,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 - As an administrator, I want to see what bookings have been made, so that I can monitor and manage rental activities effectively.
   
-#### User Management
+#### User Management: 
 As a visitor, I want to register for an account, so that I can book sports cars and track my rental history. 
 
 As a user, I want to log into my account, so that I can access personalized features and manage my bookings. 
@@ -87,7 +87,7 @@ As a user, I want to update my profile information, so that my contact details a
 
 As a user, I want to upload my driver’s license information for validation purposes, to be able to initiate bookings.
 
-### Booking
+### Booking: 
 - As a visitor, I want to select a date and time for my booking, so that I can schedule my driving experience at my convenience.
 
 - As a visitor, I want to choose a sports car, a racetrack, and an insurance package as part of my booking, so that I can customize my experience to my preferences.
