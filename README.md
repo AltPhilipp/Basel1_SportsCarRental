@@ -93,16 +93,24 @@ Starting from the home page, we can visit different pages. Available public page
 ### Domain Design
 > 🚧: Provide a picture and describe your domain model; you may use Entity-Relationship Model or UML class diagram. Both can be created in Visual Paradigm - we have an academic license for it.
 
-The ch.fhnw.sportscarrental.data.domain package contains the following domain objects / entities including getters and setters:
+The `ch.fhnw.sportscarrental.data.domain` package contains the following domain objects / entities including getters and setters:
 
 The domain model for the Sportscar Rental system consists of the following entities:
 
-InsurancePackage: Represents an insurance package with details like name, description, deductible, and price.
-Booking: Represents a booking which includes start time, duration, and number of passengers. A booking can include multiple insurance packages and one car.
-Car: Represents a car available for rent, with attributes like make, model, year, description, and rental rate.
-Racetrack: Represents a racetrack where the rented cars can be driven, including details like name, description, length, and location.
+#### InsurancePackage:
+Represents an insurance package with following attributes: insuranceID, insuranceName, insuranceDescription, insuranceDeductible, and insurancePrice.
+#### Booking:
+Represents a booking which includes bookingID, bookingDate, bookingTime, bookingCarName (selected Car), bookingRacetrackName, bookingInsurancePackageName, bookingFirstname, bookingLastname, and bookingDriverLicenseID.
+#### Car:
+Represents a car available for rent including following attributes: carID, carName, carDetails, carImageURL, carLicensePlate, carRate, and carAvailable (true or false).
+#### Racetrack:
+Represents a racetrack where the rented cars can be driven, including following attributes: trackID, trackName, trackDescription, trackLength, and trackLocation.
 
-![](images/Domain_Model_Actual.jpg)
+Each booking must contain exactly one insurance package, one selected car, and one selected race track.
+An insurance package and a race track can be included in zero or many bookings.
+A car can be included in zero or one booking (e.g., if a car is not booked or being maintained).
+
+![](images/Domain_Model_Actual.png)
 
 ### Business Logic 
 > 🚧: Describe the business logic for **at least one business service** in detail. If available, show the expected path and HTPP method. The remaining documentation of APIs shall be made available in the swagger endpoint. The default Swagger UI page is available at /swagger-ui.html.
