@@ -31,7 +31,7 @@ The Motorsport Rental Project is a web application for a Motorsport Rental compa
 ### User Stories: 
 
 #### Insurance Packages:
-As a user, I want to view different insurance packages available for my rental, so that I can select the package that best matches my risk preferences and budget.
+- As a user, I want to view different insurance packages available for my rental, so that I can select the package that best matches my risk preferences and budget.
 
 As an administrator, I want to add new insurance packages to the system, so that I can offer more choices to our users based on their needs and feedback. 
 
