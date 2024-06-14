@@ -57,7 +57,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 - As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
 
-#### NEU User Management: 
+#### User Management: 
 - As a user, I want to browse all the information on the website without needing to create an account, so that I can freely explore the available options.
 
 - As a user, I want to make a booking without needing to create an account, so that I can quickly and easily arrange my driving experience.
