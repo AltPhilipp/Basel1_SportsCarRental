@@ -87,7 +87,7 @@ As a user, I want to update my profile information, so that my contact details a
 
 As a user, I want to upload my driver’s license information for validation purposes, to be able to initiate bookings.
 
-### Booking:
+### Booking
 - As a visitor, I want to select a date and time for my booking, so that I can schedule my driving experience at my convenience.
 
 - As a visitor, I want to choose a sports car, a racetrack, and an insurance package as part of my booking, so that I can customize my experience to my preferences.
