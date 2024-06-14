@@ -26,7 +26,7 @@ Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
 ## Scenario
 
-The Motorsport Rental Project is a web application for a Motorsport Rental company. Users can reserve and rent vehicles for a selected amount of time. Insurance Packages can be selected with a vehicle rental. Admin users can add, remove and edit vehicles.
+The Sportscar Rental Project is a web application for a generic sportscar rental company. Users are able to rent vehicles from a selection at a given date and time. Insurance Packages can be selected with a vehicle rental. Admin users can add, remove and edit vehicles.
 
 ### User Stories: 
 
@@ -65,11 +65,6 @@ The Motorsport Rental Project is a web application for a Motorsport Rental compa
 ### Use Case
 
 ![](images/use-case.png)
-
-- UC-1 [Show all the Pizza]: Admin can retrieve all the pizza on the menu
-- UC-2 [Show a Pizza]: Admin can retrieve the information on a specific pizza.
-- UC-3 [Edit a Pizza]: Admin can create, update, and delete pizzas from the menu.
-- UC-4 [Show Current Location Offer]: User can retrieve special menu by location
 
 ## Design
 > 🚧: Keep in mind the Corporate Identity (CI); you shall decide appropriately the color schema, graphics, typography, layout, User Experience (UX), and so on.
