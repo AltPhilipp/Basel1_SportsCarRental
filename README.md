@@ -126,17 +126,14 @@ The following business rule was derived on the basis of the first user story des
 This business logic was realized within budibase with the help of a filter on the data provider used for the booking table.
 
 # #Check: 
-Based on the UC-4, there will be two offers and a standard offer. Given a location, a message is shown accordingly:
+Based on the user stories, only authenticated administrators can add, update, or delete cars and manage bookings.
 
-- If the location is "Basel", the message is "10% off on all large pizzas!!!"
-- If the location is "Brugg", the message is "two for the price of One on all small pizzas!!!"
-- Otherwise, the message is "No special offer".
+**Path**: [`/api/admin/cars`] 
 
-**Path**: [`/api/cars/?id="1"`] 
+**Method:** `POST` (for adding a car)
 
-**Param**: `value="id"` Admitted value: every ID, such as "1", "2", "3", etc.
+**Description**: This API endpoint requires user authentication to add a new car to the inventory. The user must have admin privileges.
 
-**Method:** `GET`
 
 ## Implementation
 
