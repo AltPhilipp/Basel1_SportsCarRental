@@ -1,4 +1,4 @@
-# Sportscar Rental Project
+# SportsCar Rental Project
 
 This is the Sportscar Rental project for the Internet Technology Module.
 Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
