@@ -128,7 +128,7 @@ This business logic was realized within Budibase with the help of a filter on th
 #### Business Rule 2:
 Based on several user stories presented above, only authenticated administrators are allowed to perform add, update, or delete requests.
 
-**Path**: [`/api/admin/cars`] (example for adding a car)
+**Path**: [`/api/cars`] (example for adding a car)
 
 **Method:** `POST` (example for adding a car)
 
