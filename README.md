@@ -122,7 +122,7 @@ The following domain model was created with Visual Pradigm.
 
 ### Business Logic 
 #### Business Rule 1:
-The following business rule was derived on the basis of the first user story described in the "Cars" section: "As an administrator, I want to make cars unavailable for booking to ensure that customers cannot select cars that are being serviced during the booking process. Therefore, if the availability of a car is set to "false", the car cannot be selected by the user during the booking process.".
+The following business rule was derived on the basis of the first user story described in the "Cars" section: "As an administrator, I want to make cars unavailable for booking to ensure that customers cannot select cars that are being serviced during the booking process. Therefore, if the availability of a car is set to "false", the car cannot be selected by the user during the booking process.
 This business logic was realized within Budibase with the help of a filter on the data provider used for the booking table.
 
 #### Business Rule 2:
