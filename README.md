@@ -87,6 +87,21 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 > 🚧: Keep in mind the Corporate Identity (CI); you shall decide appropriately the color schema, graphics, typography, layout, User Experience (UX), and so on.
 
 ### Wireframe
