@@ -83,7 +83,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 ## Design
 We have decided to stay with the sleek modern feel that budibase default uses. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
 
-### Wireframe
+### Wireframes
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_About_Page.jpg
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_All_Cars.jpg
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Booking.jpg
@@ -92,26 +92,25 @@ https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Insuran
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Login_and_Admin_Panel.jpg
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Tracks.jpg
 
-
 ### Prototype
-Using Visily, we created some very aspirational protoypes. These can be viewed here:
+Using Visily, we created some very aspirational prototypes. These can be viewed here:
 https://app.visily.ai/projects/319f7cef-5aa7-4a63-bd4b-797c76e071ab/boards/863487
 
 ### Domain Design
-> 🚧: Provide a picture and describe your domain model; you may use Entity-Relationship Model or UML class diagram. Both can be created in Visual Paradigm - we have an academic license for it.
+> 🚧: Provide a picture and describe your domain model; you may use an Entity-Relationship Model or UML class diagram. Both can be created in Visual Paradigm - we have an academic license for it.
 
-The `ch.fhnw.sportscarrental.data.domain` package contains the following domain objects / entities including getters and setters:
+The `ch.fhnw.sportscarrental.data.domain` package contains the following domain objects/entities including getters and setters:
 
 The domain model for the Sportscar Rental system consists of the following entities:
 
 #### InsurancePackage:
-Represents an insurance package with following attributes: insuranceID, insuranceName, insuranceDescription, insuranceDeductible, and insurancePrice.
+Represents an insurance package with the following attributes: insuranceID, insuranceName, insuranceDescription, insuranceDeductible, and insurancePrice.
 #### Booking:
 Represents a booking which includes bookingID, bookingDate, bookingTime, bookingCarName (selected Car), bookingRacetrackName, bookingInsurancePackageName, bookingFirstname, bookingLastname, and bookingDriverLicenseID.
 #### Car:
-Represents a car available for rent including following attributes: carID, carName, carDetails, carImageURL, carLicensePlate, carRate, and carAvailable (true or false).
+Represents a car available for rent including the following attributes: carID, carName, carDetails, carImageURL, carLicensePlate, carRate, and carAvailable (true or false).
 #### Racetrack:
-Represents a racetrack where the rented cars can be driven, including following attributes: trackID, trackName, trackDescription, trackLength, and trackLocation.
+Represents a racetrack where the rented cars can be driven, including the following attributes: trackID, trackName, trackDescription, trackLength, and trackLocation.
 
 Each booking must contain exactly one insurance package, one selected car, and one selected race track.
 An insurance package and a race track can be included in zero or many bookings.
