@@ -20,9 +20,6 @@ Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
   - [Milestones](#milestones)
 
 ## Analysis
-> 🚧: You can reuse the analysis (you made) from other projects (e.g., requirement engineering), but it must be submitted according to the following template. 
-
-
 
 ### Scenario
 
