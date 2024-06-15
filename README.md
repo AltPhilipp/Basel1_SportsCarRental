@@ -174,33 +174,34 @@ Then, the following further dependencies have been added to the project `pom.xml
 The Frontend was developed using Budibase.
 
 #### Views and used API's
-Our Cars:
-get_all_vehicles *(GET)*
 
-Car Details:
-get_vehicle_by_id *(GET)*
+**Our Cars:**
+- `get_all_vehicles` *(GET)*
 
-Insurance Packages:
-get_all_insurance_packages *(GET)*
+**Car Details:**
+- `get_vehicle_by_id` *(GET)*
 
-The Track:
-get_all_racetracks *(GET)*
+**Insurance Packages:**
+- `get_all_insurance_packages` *(GET)*
 
-Book now:
-get_all_vehicles *(GET)*
-get_all_racetracks *(GET)*
-get_all_insurance_packages *(GET)*
-add_booking *(POST)*
+**The Track:**
+- `get_all_racetracks` *(GET)*
 
-Login:
-login_user *(GET)*
+**Book now:**
+- `get_all_vehicles` *(GET)*
+- `get_all_racetracks` *(GET)*
+- `get_all_insurance_packages` *(GET)*
+- `add_booking` *(POST)*
 
-Admin Section:
-get_all_vehicles *(GET)*
-get_all_bookings *(GET)*
-add_vehicle *(POST)*
-update_vehicle_binding *(PUT)*
-delete_vehicle *(DEL)*
+**Login:**
+- `login_user` *(GET)*
+
+**Admin Section:**
+- `get_all_vehicles` *(GET)*
+- `get_all_bookings` *(GET)*
+- `add_vehicle` *(POST)*
+- `update_vehicle_binding` *(PUT)*
+- `delete_vehicle` *(DEL)*
 
 > 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.budibase.app/), please write to Devid on MS teams.
 
