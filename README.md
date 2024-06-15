@@ -1,7 +1,8 @@
 # SportsCar Rental Project
 
-This is the Sportscar Rental project for the Internet Technology Module.
-Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
+This is the documentation for the Sportscar Rental project of the Internet Technology module.
+Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, and Ranuthan Sittanpalam.
+BIT FT2a, Fachhochschule Nordwestschweiz (FHNW)
 
 ## Contents:
 - [Analysis](#analysis)
@@ -80,9 +81,11 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 As discussed with the lecturers we do not have to provide both user stories and use cases as one is enough.
 
 ## Design
-We have decided to stay with the sleek modern feel that budibase default uses. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
+We have decided to retain the simple, modern design that budibase offers as standard. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
 
 ### Wireframes
+All of the following wireframes were created with Visual Paradigm.
+
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_About_Page.jpg
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_All_Cars.jpg
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Booking.jpg
@@ -92,7 +95,7 @@ https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Login_a
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Tracks.jpg
 
 ### Prototype
-Using Visily, we created some very aspirational prototypes. These can be viewed here:
+We have created some very ambitious prototypes using Visily. These can be accessed under the following link:
 
 https://app.visily.ai/projects/319f7cef-5aa7-4a63-bd4b-797c76e071ab/boards/863487
 
@@ -114,20 +117,24 @@ Each booking must contain exactly one insurance package, one selected car, and o
 An insurance package and a race track can be included in zero or many bookings.
 A car can be included in zero or one booking (e.g., if a car is not booked or being maintained).
 
+The following domain model was created with Visual Pradigm.
+
 ![](images/Domain_Model.jpg)
 
 ### Business Logic 
-User story (Cars): As an administrator, I want to make cars unavailable for booking, to ensure customer cannont select cars during the booking process which are beeing maintained. Therefor if the availability of a car is set as "false" the car cannot be selected by the user during the booking process.
+The following business rule was derived on the basis of the first user story described in the "Cars" section: "As an administrator, I want to make cars unavailable for booking to ensure that customers cannot select cars that are being serviced during the booking process. Therefore, if the availability of a car is set to "false", the car cannot be selected by the user during the booking process.".
+This business logic was realized within budibase with the help of a filter on the data provider used for the booking table.
 
+# #Check: 
 Based on the UC-4, there will be two offers and a standard offer. Given a location, a message is shown accordingly:
 
 - If the location is "Basel", the message is "10% off on all large pizzas!!!"
 - If the location is "Brugg", the message is "two for the price of One on all small pizzas!!!"
 - Otherwise, the message is "No special offer".
 
-**Path**: [`/api/menu/?location="Basel"`] 
+**Path**: [`/api/cars/?id="1"`] 
 
-**Param**: `value="location"` Admitted value: "Basel","Brugg".
+**Param**: `value="id"` Admitted value: every ID, such as "1", "2", "3", etc.
 
 **Method:** `GET`
 
@@ -168,36 +175,36 @@ The Frontend was developed using Budibase.
 
 #### Views and used API's
 Our Cars:
-get_all_vehicles
+get_all_vehicles *(GET)*
 
 Car Details:
-get_vehicle_by_id
+get_vehicle_by_id *(GET)*
 
 Insurance Packages:
-get_all_insurance_packages
+get_all_insurance_packages *(GET)*
 
 The Track:
-get_all_racetracks
+get_all_racetracks *(GET)*
 
 Book now:
-get_all_vehicles
-get_all_racetracks
-get_all_insurance_packages
-add_booking
+get_all_vehicles *(GET)*
+get_all_racetracks *(GET)*
+get_all_insurance_packages *(GET)*
+add_booking *(POST)*
 
 Login:
-login_user
+login_user *(GET)*
 
-Admin Panel:
-get_all_bookings
-add_bookings
-get_all_vehicles
-add_vehicle
-update_vehicle_binding
+Admin Section:
+get_all_vehicles *(GET)*
+get_all_bookings *(GET)*
+add_vehicle *(POST)*
+update_vehicle_binding *(PUT)*
+delete_vehicle *(DEL)*
 
 > 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.budibase.app/), please write to Devid on MS teams.
 
-This Web application was developed using Budibase and it is available for preview at https://inttech.budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c.
+This Web application was developed using Budibase and it is available for preview at [link](https://inttech.budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c).
 
 ## Execution
 > 🚧: Please describe how to execute your app and what configurations must be changed to run it. 
