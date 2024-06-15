@@ -1,8 +1,7 @@
 # SportsCar Rental Project
 
-This is the documentation for the Sportscar Rental project of the Internet Technology module.
-Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, and Ranuthan Sittanpalam.
-BIT FT2a, Fachhochschule Nordwestschweiz (FHNW)
+This is the documentation for the sports car rental project of the Internet Technology module.
+Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, and Ranuthan Sittanpalam from the University of Applied Sciences and Arts Northwestern Switzerland (FHNW).
 
 ## Contents:
 - [Analysis](#analysis)
