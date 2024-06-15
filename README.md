@@ -80,7 +80,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 As per discussion with the lecturers in class, it is sufficient to only provide user stories for this project.
 
 ## Design
-We have decided to retain the simple, modern design that Budibase offers as standard. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
+We decided to maintain the simple, modern design that Budibase offers as standard, while customizing font weights, sizes, and button colors/types to fit our needs. For the logo, we selected a sleek and simple design of a sports car to align with the brand image.
 
 ### Wireframes
 All of the following wireframes were created with Visual Paradigm.
@@ -126,7 +126,7 @@ The following business rule was derived on the basis of the first user story des
 This business logic was realized within Budibase with the help of a filter on the data provider used for the booking table.
 
 #### Business Rule 2:
-Based on the user stories, only authenticated administrators can perform add, update, or delete requests.
+Based on several user stories presented above, only authenticated administrators are allowed to perform add, update, or delete requests.
 
 **Path**: [`/api/admin/cars`] (example for adding a car)
 
@@ -176,7 +176,7 @@ Then, the following further dependencies have been added to the project `pom.xml
 ```
 
 ### Frontend Technology
-The Frontend was developed using Budibase.
+The frontend was developed using Budibase, a low-code platform that enables rapid design and deployment of web applications. 
 
 #### Views and used API's
 
@@ -201,21 +201,19 @@ The Frontend was developed using Budibase.
 **Login:**
 - `login_user` *(GET)*
 
-**Admin Section:**
+**Login (Admin Section):**
 - `get_all_vehicles` *(GET)*
 - `get_all_bookings` *(GET)*
-- `add_vehicle` *(POST)*
+- `add_vehicle_binding` *(POST)*
 - `update_vehicle_binding` *(PUT)*
 - `delete_vehicle` *(DEL)*
 
-> 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.Budibase.app/), please write to Devid on MS teams.
-
 This Web application was developed using Budibase and it is available for preview at [link](https://inttech.Budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c).
 
-## Execution
-> 🚧: Please describe how to execute your app and what configurations must be changed to run it. 
+Furthermore, the latest export of the front-end application was exported and uploaded to this repository. [link]()
 
-The codespace URL of this Repo is subject to change. Therefore, the Budibase Sportscar Rental webapp is not going to show any data in the view, when the URL is not updated or the codespace is offline. Follow these steps to start the webservice and reconnect the webapp to the new webservice url. 
+## Execution
+The codespace URL of this Repo is subject to change. Therefore, the Budibase Sportscar Rental webapp is not going to show any data in the view, when the URL is not updated and/or the codespace is offline. Follow these steps to start the webservice and reconnect the webapp to the new webservice url. 
 
 1. Clone SportsCarRental in a new repository.
 2. Start your codespace (see video guide at: [link](https://www.youtube.com/watch?v=_W9B7qc9lVc&ab_channel=GitHub))
