@@ -138,8 +138,6 @@ Based on the UC-4, there will be two offers and a standard offer. Given a locati
 > 🚧: Briefly describe your technology stack, which apps were used and for what.
 
 ### Backend Technology
-> 🚧: It is suggested to clone this repository, but you are free to start from fresh with a Spring Initializr. If so, describe if there are any changes to the PizzaRP e.g., different dependencies, versions & etc... Please, also describe how your database is set up. If you want a persistent or in-memory H2 database check [link](https://github.com/FHNW-INT/Pizzeria_Reference_Project/blob/main/pizza/src/main/resources/application.properties). If you have placeholder data to initialize at the app, you may use a variation of the method **initPlaceholderData()** available at [link](https://github.com/FHNW-INT/Pizzeria_Reference_Project/blob/main/pizza/src/main/java/ch/fhnw/pizza/PizzaApplication.java).
-
 This Web application is relying on [Spring Boot](https://projects.spring.io/spring-boot) and the following dependencies:
 
 - [Spring Boot](https://projects.spring.io/spring-boot)
@@ -170,17 +168,36 @@ Then, the following further dependencies have been added to the project `pom.xml
 ```
 
 ### Frontend Technology
-#### Views
-Vehicles:
+The Frontend was developed using Budibase.
+
+#### Views and used API's
+Our Cars:
+get_all_vehicles
+
+Car Details:
+get_vehicle_by_id
 
 Insurance Packages:
+get_all_insurance_packages
 
-Racetracks:
+The Track:
+get_all_racetracks
 
 Book now:
+get_all_vehicles
+get_all_racetracks
+get_all_insurance_packages
+add_booking
 
-Manage Vehicles:
+Login:
+login_user
 
+Admin Panel:
+get_all_bookings
+add_bookings
+get_all_vehicles
+add_vehicle
+update_vehicle_binding
 
 > 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.budibase.app/), please write to Devid on MS teams.
 
@@ -191,17 +208,16 @@ This Web application was developed using Budibase and it is available for previe
 
 The codespace URL of this Repo is subject to change. Therefore, the Budibase PizzaRP webapp is not going to show any data in the view, when the URL is not updated or the codespace is offline. Follow these steps to start the webservice and reconnect the webapp to the new webservice url. 
 
-> 🚧: This is a shortened description for example purposes. A complete tutorial will be provided in a dedicated lecture.
-
-1. Clone PizzaRP in a new repository.
+1. Clone SportsCarRental in a new repository.
 2. Start your codespace (see video guide at: [link](https://www.youtube.com/watch?v=_W9B7qc9lVc&ab_channel=GitHub))
-3. Run the PizzaRP main available at PizzaApplication.java on your own codespace.
+3. Run the SportsCarRental main available at SportsCarRentalApplication.java on your own codespace.
 4. Set your app with a public port, see the guide at [link](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace).
-5. Create an own Budibase app, you can export/import the existing Pizzeria app. Guide available at [link](https://docs.budibase.com/docs/export-and-import-apps).
-6. Update the pizzeria URL in the datasource and publish your app.
+5. Create an own Budibase app, you can export/import the existing SportsCarRental app. Guide available at [link](https://docs.budibase.com/docs/export-and-import-apps).
+6. Update the SportsCarRental URL in the datasource and publish your app.
 
 ## Project Management
 > Communication via Teams and In-Person. Work was done remotely and during in-person working sessions at the FHNW Campus Basel.
+> We assigned some roles but all team members worked on all aspects of the project.
 > 
 > Phillip Altenbach: Team Lead, Frontend & Backend
 > Ryan Kreis: Frontend & Backend
