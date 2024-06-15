@@ -77,7 +77,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 - As an administrator, I want to edit bookings, so that I can update or correct details as needed.
 
 ### Use Case:
-As discussed with you lecturers we do not have to provide both user stories and use cases as one is enough.
+As discussed with the lecturers we do not have to provide both user stories and use cases as one is enough.
 
 ## Design
 We have decided to stay with the sleek modern feel that budibase default uses. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
