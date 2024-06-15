@@ -210,7 +210,7 @@ The frontend was developed using Budibase, a low-code platform that enables rapi
 
 This Web application was developed using Budibase and it is available for preview at [link](https://inttech.Budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c).
 
-Furthermore, the latest export of the front-end application was exported and uploaded to this repository. [link](Basel1_Budibase_Export.gz)
+Furthermore, the latest export of the front-end application was exported and uploaded to this repository ([link to export](Basel1_Budibase_Export.gz)).
 
 ## Execution
 The codespace URL of this Repo is subject to change. Therefore, the Budibase Sportscar Rental webapp is not going to show any data in the view, when the URL is not updated and/or the codespace is offline. Follow these steps to start the webservice and reconnect the webapp to the new webservice url. 
