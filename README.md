@@ -232,7 +232,7 @@ The codespace URL of this Repo is subject to change. Therefore, the Budibase Piz
 #### Maintainer
 - Phillip Altenbach
 - Ryan Kreis
-- Ranuthab Sittampalam
+- Ranuthan Sittampalam
 - Gabriel Schnelli
 
 #### License
