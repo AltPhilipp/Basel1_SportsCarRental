@@ -84,30 +84,11 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 - As an administrator, I want to edit bookings, so that I can update or correct details as needed.
 
 ## Design
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> 🚧: Keep in mind the Corporate Identity (CI); you shall decide appropriately the color schema, graphics, typography, layout, User Experience (UX), and so on.
+We have decided to stay with the sleek modern feel that budibase default uses. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
 
 ### Wireframe
-> 🚧: It is suggested to start with a wireframe. The wireframe focuses on the website structure (Sitemap planning), sketching the pages using Wireframe components (e.g., header, menu, footer) and UX. You can create a wireframe already with draw.io or similar tools. 
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_About_Page.jpg
 
-Starting from the home page, we can visit different pages. Available public pages are visible in the menu...
 
 ### Prototype
 > 🚧: A prototype can be designed using placeholder text/figures in Budibase. You don't need to connect the front-end to back-end in the early stages of the project development.
