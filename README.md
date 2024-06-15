@@ -24,7 +24,7 @@ Created by Phillip Altenbach, Ryan Kreis, Gabriel Schnelli, Ranuthan Sittanpalam
 
 
 
-## Scenario
+### Scenario
 
 The Sportscar Rental Project is a web application for a generic sportscar rental company. Users are able to rent vehicles from a selection at a given date and time. Insurance Packages can be selected with a vehicle rental. Admin users can add, remove and edit vehicles.
 
