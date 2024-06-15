@@ -126,13 +126,21 @@ The following business rule was derived on the basis of the first user story des
 This business logic was realized within budibase with the help of a filter on the data provider used for the booking table.
 
 # #Check: 
-Based on the user stories, only authenticated administrators can add, update, or delete cars and manage bookings.
+Based on the user stories, only authenticated administrators can perform add, update, or delete requests.
 
-**Path**: [`/api/admin/cars`] 
+**Path**: [`/api/admin/cars`] (example for adding a car)
 
-**Method:** `POST` (for adding a car)
+**Method:** `POST` (example for adding a car)
 
 **Description**: This API endpoint requires user authentication to add a new car to the inventory. The user must have admin privileges.
+
+**Changes made within `SecurityConfig.java` class**
+```
+.requestMatchers("/**").hasAuthority("SCOPE_READ")
+                                                .requestMatchers(HttpMethod.PUT, "/**").hasRole("ADMIN")
+                                                .requestMatchers(HttpMethod.DELETE, "/**").hasRole("ADMIN")
+                                                .requestMatchers(HttpMethod.POST, "/**").hasRole("ADMIN")
+```
 
 
 ## Implementation
