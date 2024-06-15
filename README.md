@@ -88,10 +88,17 @@ We have decided to stay with the sleek modern feel that budibase default uses. F
 
 ### Wireframe
 https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_About_Page.jpg
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_All_Cars.jpg
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Booking.jpg
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Car_Details.jpg
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Insurance_Packages.jpg
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Login_and_Admin_Panel.jpg
+https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Tracks.jpg
 
 
 ### Prototype
-> 🚧: A prototype can be designed using placeholder text/figures in Budibase. You don't need to connect the front-end to back-end in the early stages of the project development.
+Using Visily, we created some very aspirational protoypes. These can be viewed here:
+https://app.visily.ai/projects/319f7cef-5aa7-4a63-bd4b-797c76e071ab/boards/863487
 
 ### Domain Design
 > 🚧: Provide a picture and describe your domain model; you may use Entity-Relationship Model or UML class diagram. Both can be created in Visual Paradigm - we have an academic license for it.
