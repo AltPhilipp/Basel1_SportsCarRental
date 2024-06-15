@@ -52,33 +52,32 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 
 - As an administrator, I want to update the details of the sports cars in our inventory, so that all the specifications and availability are correct.
 
-- As an administrator, I want to remove sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book. 
+- As an administrator, I want to delete sports cars from our inventory that are no longer for rent, to ensure our users see only those cars that they can book.
+
+- As an administrator, I want to make cars unavailable for booking, to ensure customer cannont select cars during the booking process which are beeing maintained.
 
 #### User Management: 
 - As a user, I want to browse all the information on the website without needing to create an account, so that I can freely explore the available options.
 
 - As a user, I want to make a booking without needing to create an account, so that I can quickly and easily arrange my driving experience.
 
-- As a user, I want to provide my full name and driver's license ID when making a booking, so that my identity and eligibility can be verified.
-
 - As an administrator, I want to manage all information about cars, insurance packages, and racetracks, so that I can keep the system up to date and accurate.
-
-- As an administrator, I want to view all bookings, so that I can manage and oversee the reservations made by visitors.
-
-- As an administrator, I want to edit bookings, so that I can update or correct details as needed.
   
 - As an administrator, I want to log into my account, so that I can access the admin-only section to perform tasks related to car management and booking oversight.
-
-- As an administrator, I want to see what bookings have been made, so that I can monitor and manage rental activities effectively.
   
-### Booking: 
+#### Booking: 
 - As a user, I want to select a date and time for my booking, so that I can schedule my driving experience at my convenience.
 
 - As a user, I want to choose a sports car, a racetrack, and an insurance package as part of my booking, so that I can customize my experience to my preferences.
+  
+- As a user, I want to provide my full name and driver's license ID when making a booking, so that my identity and eligibility can be verified.
 
 - As an administrator, I want to view all bookings, so that I can manage and oversee the reservations made by visitors.
 
 - As an administrator, I want to edit bookings, so that I can update or correct details as needed.
+
+### Use Case:
+As discussed with you lecturers we do not have to provide both user stories and use cases as one is enough.
 
 ## Design
 We have decided to stay with the sleek modern feel that budibase default uses. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
@@ -98,8 +97,6 @@ Using Visily, we created some very aspirational prototypes. These can be viewed 
 https://app.visily.ai/projects/319f7cef-5aa7-4a63-bd4b-797c76e071ab/boards/863487
 
 ### Domain Design
-> 🚧: Provide a picture and describe your domain model; you may use an Entity-Relationship Model or UML class diagram. Both can be created in Visual Paradigm - we have an academic license for it.
-
 The `ch.fhnw.sportscarrental.data.domain` package contains the following domain objects/entities including getters and setters:
 
 The domain model for the Sportscar Rental system consists of the following entities:
@@ -117,10 +114,10 @@ Each booking must contain exactly one insurance package, one selected car, and o
 An insurance package and a race track can be included in zero or many bookings.
 A car can be included in zero or one booking (e.g., if a car is not booked or being maintained).
 
-![](images/Domain_Model_Actual.png)
+![](images/Domain_Model.jpg)
 
 ### Business Logic 
-> 🚧: Describe the business logic for **at least one business service** in detail. If available, show the expected path and HTPP method. The remaining documentation of APIs shall be made available in the swagger endpoint. The default Swagger UI page is available at /swagger-ui.html.
+User story (Cars): As an administrator, I want to make cars unavailable for booking, to ensure customer cannont select cars during the booking process which are beeing maintained. Therefor if the availability of a car is set as "false" the car cannot be selected by the user during the booking process.
 
 Based on the UC-4, there will be two offers and a standard offer. Given a location, a message is shown accordingly:
 
@@ -135,7 +132,6 @@ Based on the UC-4, there will be two offers and a standard offer. Given a locati
 **Method:** `GET`
 
 ## Implementation
-> 🚧: Briefly describe your technology stack, which apps were used and for what.
 
 ### Backend Technology
 This Web application is relying on [Spring Boot](https://projects.spring.io/spring-boot) and the following dependencies:
@@ -221,7 +217,7 @@ The codespace URL of this Repo is subject to change. Therefore, the Budibase Piz
 > 
 > Phillip Altenbach: Team Lead, Frontend & Backend
 > Ryan Kreis: Frontend & Backend
-> Ranuthan Sittanpalam: Frontend & Documentation
+> Ranuthan Sittampalam: Frontend & Documentation
 > Gabriel Schnelli: Backend & Documentation
 
 ### Milestones
@@ -231,12 +227,13 @@ The codespace URL of this Repo is subject to change. Therefore, the Budibase Piz
 4. **Business Logic and API Design**: Definition of business logic and API.
 5. **Data and API Implementation**: Implementation of data access and business logic layers, and API.
 6. **Security and Frontend Implementation**: Integration of security framework and frontend realisation.
-7. (optional) **Deployment**: Deployment of Web application on cloud infrastructure.
 
 
 #### Maintainer
-- Charuta Pande
-- Devid Montecchiari
+- Phillip Altenbach
+- Ryan Kreis
+- Ranuthab Sittampalam
+- Gabriel Schnelli
 
 #### License
 - [Apache License, Version 2.0](blob/master/LICENSE)
