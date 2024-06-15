@@ -94,6 +94,7 @@ https://github.com/AltPhilipp/SportsCarRental/blob/main/images/Wireframe_Tracks.
 
 ### Prototype
 Using Visily, we created some very aspirational prototypes. These can be viewed here:
+
 https://app.visily.ai/projects/319f7cef-5aa7-4a63-bd4b-797c76e071ab/boards/863487
 
 ### Domain Design
