@@ -126,13 +126,19 @@ The following business rule was derived on the basis of the first user story des
 This business logic was realized within Budibase with the help of a filter on the data provider used for the booking table.
 
 #### Business Rule 2:
-Based on several user stories presented above, only authenticated administrators are allowed to perform add, update, or delete requests.
+Based on several user stories presented above, only authenticated administrators are allowed to perform create, update, or delete requests.
+
+This authentication is achieved through the login process, which parses the user input (e.g., myadmin:password) into a Base64 string and passes this value with the API call `login_user` (GET). The API then matches the parameter and returns the appropriate role [`/user`] based on the users stored in the backend, specifically within the `SecurityConfig.java` class.
+
+Using Budibase conditions, the frontend checks which functionalities to display and which ones remain hidden. For example, when a user logs in using myadmin:password, this is converted to Base64 using a JS script and attached within the header of the API call `login_user`. The return consists of a string that displays the correct role matching the user input. Consequently, the Budibase frontend will unlock the administration section and display the logout button.
+
+Additionally, following modifications have been made to the `SecurityConfig.java` class.
+
+**Description**: POST, PUT, and DELETE API calls require administration privileges.
 
 **Path**: [`/api/cars`] (example for adding a car)
 
 **Method:** `POST` (example for adding a car)
-
-**Description**: This API endpoint requires user authentication to add a new car to the inventory. The user must have admin privileges.
 
 **Changes made within `SecurityConfig.java` class**
 ```
