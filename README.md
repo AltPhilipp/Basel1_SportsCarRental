@@ -81,7 +81,7 @@ The Sportscar Rental Project is a web application for a generic sportscar rental
 As discussed with the lecturers we do not have to provide both user stories and use cases as one is enough.
 
 ## Design
-We have decided to retain the simple, modern design that budibase offers as standard. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
+We have decided to retain the simple, modern design that Budibase offers as standard. For the logo we also chose a sleek and simplistic design of a sportscar, fitting the brand image.
 
 ### Wireframes
 All of the following wireframes were created with Visual Paradigm.
@@ -122,10 +122,11 @@ The following domain model was created with Visual Pradigm.
 ![](images/Domain_Model.jpg)
 
 ### Business Logic 
+#### Business Rule 1:
 The following business rule was derived on the basis of the first user story described in the "Cars" section: "As an administrator, I want to make cars unavailable for booking to ensure that customers cannot select cars that are being serviced during the booking process. Therefore, if the availability of a car is set to "false", the car cannot be selected by the user during the booking process.".
-This business logic was realized within budibase with the help of a filter on the data provider used for the booking table.
+This business logic was realized within Budibase with the help of a filter on the data provider used for the booking table.
 
-# #Check: 
+#### Business Rule 2:
 Based on the user stories, only authenticated administrators can perform add, update, or delete requests.
 
 **Path**: [`/api/admin/cars`] (example for adding a car)
@@ -208,20 +209,20 @@ The Frontend was developed using Budibase.
 - `update_vehicle_binding` *(PUT)*
 - `delete_vehicle` *(DEL)*
 
-> 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.budibase.app/), please write to Devid on MS teams.
+> 🚧: Describe your views and what APIs is used on which view. If you don't have access to the Internet Technology class Budibase environment(https://inttech.Budibase.app/), please write to Devid on MS teams.
 
-This Web application was developed using Budibase and it is available for preview at [link](https://inttech.budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c).
+This Web application was developed using Budibase and it is available for preview at [link](https://inttech.Budibase.app/builder/app/app_dev_inttech_4e92b1b0a5324ff78ede1ee5149fa44c).
 
 ## Execution
 > 🚧: Please describe how to execute your app and what configurations must be changed to run it. 
 
-The codespace URL of this Repo is subject to change. Therefore, the Budibase PizzaRP webapp is not going to show any data in the view, when the URL is not updated or the codespace is offline. Follow these steps to start the webservice and reconnect the webapp to the new webservice url. 
+The codespace URL of this Repo is subject to change. Therefore, the Budibase Sportscar Rental webapp is not going to show any data in the view, when the URL is not updated or the codespace is offline. Follow these steps to start the webservice and reconnect the webapp to the new webservice url. 
 
 1. Clone SportsCarRental in a new repository.
 2. Start your codespace (see video guide at: [link](https://www.youtube.com/watch?v=_W9B7qc9lVc&ab_channel=GitHub))
 3. Run the SportsCarRental main available at SportsCarRentalApplication.java on your own codespace.
 4. Set your app with a public port, see the guide at [link](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace).
-5. Create an own Budibase app, you can export/import the existing SportsCarRental app. Guide available at [link](https://docs.budibase.com/docs/export-and-import-apps).
+5. Create an own Budibase app, you can export/import the existing SportsCarRental app. Guide available at [link](https://docs.Budibase.com/docs/export-and-import-apps).
 6. Update the SportsCarRental URL in the datasource and publish your app.
 
 ## Project Management
